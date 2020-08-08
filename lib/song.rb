@@ -24,7 +24,6 @@ class Song
   def self.new_by_name(name)
     # binding.pry
     song.name = name
-    song
   end
 
 end
