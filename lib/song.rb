@@ -23,6 +23,7 @@ class Song
 
   def self.new_by_name(name)
     # binding.pry
+    song = 0
     song.name = name
   end
 
