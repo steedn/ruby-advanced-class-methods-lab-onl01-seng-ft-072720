@@ -57,4 +57,8 @@ class Song
     song = self.name(filename[-1])
   end
 
+  def destroy_all
+    @@all.clear 
+  end
+
 end
