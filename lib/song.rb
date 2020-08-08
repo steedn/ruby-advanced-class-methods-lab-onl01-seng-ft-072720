@@ -31,5 +31,6 @@ class Song
     song = self.new(name)
     @@all << song
     song
+  end
 
 end
