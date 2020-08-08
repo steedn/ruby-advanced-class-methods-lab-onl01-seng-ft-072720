@@ -49,4 +49,11 @@ class Song
     self.sort!
   end
 
+  def new_from_filename(filename)
+    filename.split(" - ")
+    filename.split(".")
+    filename.pop
+    artist = self.artist_name(filename[0])
+    song = self.name(filename[-1])
+
 end
