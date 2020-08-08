@@ -55,5 +55,6 @@ class Song
     filename.pop
     artist = self.artist_name(filename[0])
     song = self.name(filename[-1])
+  end
 
 end
