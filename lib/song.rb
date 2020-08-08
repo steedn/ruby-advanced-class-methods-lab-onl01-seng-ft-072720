@@ -27,4 +27,8 @@ class Song
     song.name = name
   end
 
+  def self.name
+    self
+  end
+
 end
