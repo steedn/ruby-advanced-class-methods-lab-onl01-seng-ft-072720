@@ -46,6 +46,7 @@ class Song
   end
 
   def self.alphabetical
-    @@all.sort!
+    @@all.uniq.sort!
+    
   end
 end
