@@ -25,6 +25,7 @@ class Song
     # binding.pry
     song = self.new
     song
+    binding.pry
   end
 
 
