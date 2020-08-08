@@ -5,6 +5,7 @@ class Song
   @@all = []
 
   def initialize(v = nil)
+    @name = v
   end
 
   def self.create
