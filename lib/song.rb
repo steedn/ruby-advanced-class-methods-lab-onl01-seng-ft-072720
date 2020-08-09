@@ -61,6 +61,7 @@ class Song
 
   def self.create_from_filename(filename)
     filename = filename.split(" - ")
+  end
 
 
   def self.destroy_all
