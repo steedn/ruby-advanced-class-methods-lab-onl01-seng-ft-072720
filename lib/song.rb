@@ -49,7 +49,7 @@ class Song
     self.sort!
   end
 
-  def new_from_filename(filename)
+  def self.new_from_filename(filename)
     filename.split(" - ")
     filename.split(".")
     filename.pop
