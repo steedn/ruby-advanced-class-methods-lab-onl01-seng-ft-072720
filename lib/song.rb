@@ -56,7 +56,7 @@ class Song
     filename.pop
     artist = self.artist_name(filename[0])
     song = self.name(filename[-1])
-    # binding.pry
+    binding.pry
   end
 
   def self.create_from_filename(filename)
