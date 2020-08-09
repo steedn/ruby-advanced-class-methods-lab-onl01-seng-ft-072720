@@ -54,7 +54,6 @@ class Song
     filename = filename.split(" - ")
     filename[-1] = filename[-1].chomp(".mp3")
     song = self.new
-    artist = self.new
     artist = filename[0]
     song = filename[-1]
 
