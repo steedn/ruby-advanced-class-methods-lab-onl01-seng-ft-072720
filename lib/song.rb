@@ -55,10 +55,10 @@ class Song
     filename.pop
     artist = self.artist_name(filename[0])
     song = self.name(filename[-1])
-    binding.pry
+    # binding.pry
   end
 
-  def destroy_all
+  def self.destroy_all
     @@all.clear
   end
 
