@@ -55,7 +55,7 @@ class Song
     filename[-1] = filename[-1].chomp(".mp3")
     song = self.new
     artist = filename[0]
-    song = filename[-1]
+    song.artist_name = filename[-1]
     song
 
     # binding.pry
