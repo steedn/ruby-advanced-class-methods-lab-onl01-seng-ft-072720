@@ -56,6 +56,7 @@ class Song
     song = self.new
     artist = filename[0]
     song = filename[-1]
+    song
 
     # binding.pry
   end
