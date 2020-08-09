@@ -53,8 +53,11 @@ class Song
     # binding.pry
     filename = filename.split(" - ")
     filename[-1] = filename[-1].chomp(".mp3")
-    artist = self.artist_name(filename[0])
-    song = self.name(filename[-1])
+    song = self.new
+    artist = self.new
+    artist = filename[0]
+    song = filename[-1]
+
     # binding.pry
   end
 
