@@ -46,7 +46,7 @@ class Song
   end
 
   def self.alphabetical
-    @@all.sort
+    self.name.sort
   end
 
   def self.new_from_filename(filename)
@@ -58,6 +58,10 @@ class Song
     song = self.name(filename[-1])
     # binding.pry
   end
+
+  def self.create_from_filename(filename)
+    filename = filename.split(" - ")
+
 
   def self.destroy_all
     @@all.clear
